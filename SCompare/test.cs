@@ -61,7 +61,7 @@ namespace SCompareUtil
         static int count = 0;
         static void log(int i, int s)
         {
-            Console.Write(count + "\t");
+            Console.Write(++count + "\t");
             Console.WriteLine(i == s);
         }
     }
