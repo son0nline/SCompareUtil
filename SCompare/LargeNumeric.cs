@@ -40,7 +40,7 @@ namespace SCompare
 				}
 				else
 					tempRs = sumSimple(strNum1[i], strNum2[i]) + surplus;
-				surplus = tempRs > 9 ? 1 : 0;
+				surplus = tempRs / 10;
 				sb.Append(tempRs % 10);
 			}
 			if (surplus == 1)
